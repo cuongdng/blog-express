@@ -21,11 +21,6 @@
     "nodemon": "^3.0.1",
     "prettier": "^3.0.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*.{js, json}": "prettier --tab-width 4 --single-quote --trailing-comma all --write"
   }
